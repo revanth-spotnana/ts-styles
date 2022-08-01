@@ -9,3 +9,7 @@ html,body{
 .bk-pinboard-data-viz {
   border-radius: 16px !important;
 }
+
+.kpi-module__kpi .kpi-module__hero {
+  line-height: 30px;
+}
