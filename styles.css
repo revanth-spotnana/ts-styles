@@ -18,3 +18,7 @@ html,body{
 .bk-pinboard-data-viz {
   padding: 14px 24px 24px 24px !important;
 }
+
+.bk-title {
+  font-weight: 500 !important;
+}
