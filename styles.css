@@ -12,6 +12,7 @@ html,body{
 
 .kpi-module__kpi .kpi-module__hero {
   line-height: 30px;
+  font-size: 40px;
 }
 
 .bk-pinboard-data-viz {
