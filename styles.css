@@ -1,7 +1,11 @@
-.bk-pinboard-data-viz {
-  border-radius: 16px !important;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 
 html,body{
   background-color: white !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+.bk-pinboard-data-viz {
+  border-radius: 16px !important;
 }
