@@ -13,3 +13,7 @@ html,body{
 .kpi-module__kpi .kpi-module__hero {
   line-height: 30px;
 }
+
+.bk-pinboard-data-viz {
+  padding: 14px 24px 24px 24px !important;
+}
