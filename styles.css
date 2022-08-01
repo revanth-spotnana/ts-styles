@@ -1,3 +1,7 @@
 .bk-pinboard-data-viz {
   border-radius: 16px !important;
 }
+
+html,body{
+  background-color: white !important;
+}
