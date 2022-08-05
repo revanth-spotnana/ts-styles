@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-
-html,body{
+html,
+body {
   background-color: white !important;
   font-family: 'Inter', sans-serif !important;
 }
 
 .bk-pinboard-data-viz {
   border-radius: 16px !important;
+  padding: 8px 24px 16px 24px !important;
 }
 
 .kpi-module__kpi .kpi-module__hero {
@@ -15,10 +16,13 @@ html,body{
   font-size: 40px;
 }
 
-.bk-pinboard-data-viz {
-  padding: 14px 24px 24px 24px !important;
+.tile-extraSmall .kpi-module__hero,
+.tile-size-xs .kpi-module__hero {
+  font-size: 24px !important;
+  line-height: 12px !important;
 }
 
-.bk-title {
+.bk-title-description .bk-title-section .bk-title {
   font-weight: 500 !important;
+  line-height: 1.2 !important;
 }
