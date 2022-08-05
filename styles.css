@@ -30,3 +30,9 @@ body {
 .loading-indicator {
   border-radius: 16px !important;
 }
+
+.circle {
+   position: relative !important;
+   top: 24px !important;
+}
+}
