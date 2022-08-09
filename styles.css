@@ -46,7 +46,7 @@ body {
      position: absolute;
      top: 0;
      left: 0;
-     content: "No bookings found during this period";
+     content: "No bookings were found for the selected duration";
 }
 
 .chartVizNoDataErrorSection p.typography-module__body-normal.typography-module__grayLight.muted-alert-module__description {
