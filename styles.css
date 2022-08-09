@@ -35,3 +35,20 @@ body {
    position: relative !important;
    top: 24px !important;
 }
+
+.chartVizNoDataErrorSection h6.typography-module__content-label-subhead.typography-module__grayLight.muted-alert-module__title {
+    visibility: hidden;
+    position: relative;
+}
+
+.chartVizNoDataErrorSection h6.typography-module__content-label-subhead.typography-module__grayLight.muted-alert-module__title:after {
+     visibility: visible;
+     position: absolute;
+     top: 0;
+     left: 0;
+     content: "No bookings found during this period";
+}
+
+.chartVizNoDataErrorSection p.typography-module__body-normal.typography-module__grayLight.muted-alert-module__description {
+  display: none;
+}
