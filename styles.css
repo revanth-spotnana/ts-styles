@@ -12,14 +12,14 @@ body {
 }
 
 .kpi-module__kpi .kpi-module__hero {
-  line-height: 30px;
   font-size: 40px;
 }
 
 .tile-extraSmall .kpi-module__hero,
 .tile-size-xs .kpi-module__hero {
   font-size: 24px !important;
-  line-height: 12px !important;
+  position: relative;
+  top: -14px !important;
 }
 
 .bk-title-description .bk-title-section .bk-title {
@@ -32,23 +32,26 @@ body {
 }
 
 .circle {
-   position: relative !important;
-   top: 24px !important;
+  position: relative !important;
+  top: 24px !important;
 }
 
-.chartVizNoDataErrorSection h6.typography-module__content-label-subhead.typography-module__grayLight.muted-alert-module__title {
-    visibility: hidden;
-    position: relative;
+.chartVizNoDataErrorSection
+  h6.typography-module__content-label-subhead.typography-module__grayLight.muted-alert-module__title {
+  visibility: hidden;
+  position: relative;
 }
 
-.chartVizNoDataErrorSection h6.typography-module__content-label-subhead.typography-module__grayLight.muted-alert-module__title:after {
-     visibility: visible;
-     position: absolute;
-     top: 0;
-     left: 0;
-     content: "No bookings were found for the selected duration";
+.chartVizNoDataErrorSection
+  h6.typography-module__content-label-subhead.typography-module__grayLight.muted-alert-module__title:after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: 'No bookings were found for the selected duration';
 }
 
-.chartVizNoDataErrorSection p.typography-module__body-normal.typography-module__grayLight.muted-alert-module__description {
+.chartVizNoDataErrorSection
+  p.typography-module__body-normal.typography-module__grayLight.muted-alert-module__description {
   display: none;
 }
