@@ -55,3 +55,11 @@ body {
   p.typography-module__body-normal.typography-module__grayLight.muted-alert-module__description {
   display: none;
 }
+
+.bk-pinboard-ribbon .bk-pinboard-ribbon-switch > div {
+  background-color: transparent !important;
+}
+
+.bk-sharable-item .bk-sharable-item-container .ribbon-item {
+  background-color: transparent !important;
+}
