@@ -63,3 +63,10 @@ body {
 .bk-sharable-item .bk-sharable-item-container .ribbon-item {
   background-color: transparent !important;
 }
+
+@media (min-width: 920px) {
+  .tile-container .tile-size-xs {
+     width: 24.25% !importan;
+  }
+}
+
