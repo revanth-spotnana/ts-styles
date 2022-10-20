@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html,
+body {
+  background-color: white !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+.bk-pinboard-data-viz {
+  border-radius: 16px !important;
+  padding: 8px 24px 16px 24px !important;
+}
+
+.kpi-module__kpi .kpi-module__hero {
+  font-size: 40px;
+}
+
+.tile-extraSmall .kpi-module__hero,
+.tile-size-xs .kpi-module__hero {
+  font-size: 24px !important;
+  position: relative;
+  top: -14px !important;
+}
+
+.bk-title-description .bk-title-section .bk-title {
+  font-weight: 500 !important;
+  line-height: 1.2 !important;
+}
+
+.loading-indicator {
+  border-radius: 16px !important;
+}
+
+.circle {
+  position: relative !important;
+  top: 24px !important;
+}
+
+.chartVizNoDataErrorSection
+  h6.typography-module__content-label-subhead.typography-module__grayLight.muted-alert-module__title {
+  visibility: hidden;
+  position: relative;
+}
+
+.chartVizNoDataErrorSection
+  h6.typography-module__content-label-subhead.typography-module__grayLight.muted-alert-module__title:after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: 'No bookings were found for the selected duration';
+}
+
+.chartVizNoDataErrorSection
+  p.typography-module__body-normal.typography-module__grayLight.muted-alert-module__description {
+  display: none;
+}
+
+.bk-pinboard-ribbon .bk-pinboard-ribbon-switch > div {
+  background-color: transparent !important;
+}
+
+.bk-sharable-item .bk-sharable-item-container .ribbon-item {
+  background-color: transparent !important;
+}
+
+@media (min-width: 920px) {
+  .tile-container .tile-size-xs {
+     width: 24.25% !important;
+  }
+}
+
+/********************************************************************/
+/*********************** Chart Color Overrides *********************/
+/********************************************************************/
+
+
+
+g.highcharts-series.highcharts-series-0.highcharts-column-series.highcharts-tracker rect.highcharts-point {
+    fill: #F46A35 !important;
+}
+
+g.highcharts-series.highcharts-series-0.highcharts-line-series path.highcharts-graph.highcharts-zone-graph-0 {
+    stroke: #F46A35 !important;
+}
+
+.chartSection .vizWrapper .chart-legend-container-v2 .legend-item-v2:nth-child(1) .color-module__selectedValue.color-module__selectedColor.color-module__swatchRound.color-module__border {
+    background-color: #F46A35 !important;
+}
