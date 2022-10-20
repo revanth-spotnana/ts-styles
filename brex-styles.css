@@ -75,15 +75,22 @@ body {
 /********************************************************************/
 
 
-
-g.highcharts-series.highcharts-series-0.highcharts-column-series.highcharts-tracker rect.highcharts-point {
-    fill: #F46A35 !important;
-}
-
-g.highcharts-series.highcharts-series-0.highcharts-line-series path.highcharts-graph.highcharts-zone-graph-0 {
+/* chart > line-series > line-path */
+.highcharts-series-group g.highcharts-series.highcharts-series-0.highcharts-line-series path.highcharts-graph.highcharts-zone-graph-0 {
     stroke: #F46A35 !important;
 }
 
+/* chart > line-series > hover-point */
+.highcharts-series-group g.highcharts-markers.highcharts-series-0.highcharts-line-series.highcharts-tracker path {
+    fill:#F46A35 !important;
+}
+
+/* chart > line-series > legend */
 .chartSection .vizWrapper .chart-legend-container-v2 .legend-item-v2:nth-child(1) .color-module__selectedValue.color-module__selectedColor.color-module__swatchRound.color-module__border {
     background-color: #F46A35 !important;
+}
+
+/* chart > column-bar-series > bar-rect */
+.highcharts-series-group g.highcharts-series.highcharts-series-0.highcharts-column-series.highcharts-tracker rect.highcharts-point {
+    fill: #F46A35 !important;
 }
