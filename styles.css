@@ -19,7 +19,8 @@ body {
 .tile-size-xs .kpi-module__hero {
   font-size: 24px !important;
   position: relative;
-  top: -14px !important;
+  /* Temporary Fix */
+  /* top: -14px !important; */
 }
 
 .bk-title-description .bk-title-section .bk-title {
@@ -70,3 +71,8 @@ body {
   }
 }
 
+
+/* Temporary fix */
+.bk-pinboard-data-viz .bk-pinboard-viz-header {
+  flex-basis: 56px !important;
+}
