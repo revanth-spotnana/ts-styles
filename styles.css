@@ -38,7 +38,7 @@ body {
 
 @media (min-width: 920px) {
   .tile-container .tile-size-s {
-     width: 24.5%;
+     width: 24.5% !important;
   }
 }
 
