@@ -36,6 +36,12 @@ body {
   border-radius: 16px !important;
 }
 
+@media (min-width: 920px) {
+  .tile-container .tile-size-s {
+     width: 24.5%;
+  }
+}
+
 .circle {
   position: relative !important;
   top: 24px !important;
