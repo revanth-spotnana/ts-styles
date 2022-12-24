@@ -67,6 +67,10 @@ body {
   background-color: transparent !important;
 }
 
+.bk-pinboard-ribbon {
+  border-radius: 16px !important;
+}
+
 @media (min-width: 920px) {
   .tile-container .tile-size-xs {
     width: 24.25% !important;
@@ -74,4 +78,7 @@ body {
   .tile-container .tile-size-s {
     width: 24.25% !important;
   }
+  .bk-pinboard-data-viz .bk-pinboard-viz-header {
+      flex-basis: 40px !important;
+  } 
 }
