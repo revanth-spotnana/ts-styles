@@ -19,12 +19,6 @@ body {
   font-size: 40px;
 }
 
-.tile-extraSmall .kpi-module__hero,
-.tile-size-xs .kpi-module__hero {
-  font-size: 24px !important;
-  position: relative;
-}
-
 .bk-title-description .bk-title-section .bk-title {
   font-weight: 500 !important;
   line-height: 1.2 !important;
